@@ -1,11 +1,10 @@
-# README
+# Omar Albacha Portfolio Application
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This repo contains the code of my profile built on Ruby on Rails 5.1. This code describes all the skills and projects I was a part of through out my software engineering history.
 
-Things you may want to cover:
+This application uses:
 
-* Ruby version
+* Ruby version 2.4.1
 
 * System dependencies
 
@@ -20,5 +19,3 @@ Things you may want to cover:
 * Services (job queues, cache servers, search engines, etc.)
 
 * Deployment instructions
-
-* ...
