@@ -1,3 +1,9 @@
+GIT
+  remote: https://github.com/oalbacha/oalbacha_view_tool
+  revision: ffaa0ea6a7716e92e25c294e99d1e94974c6b0e4
+  specs:
+    oalbacha_view_tool (0.1.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -196,6 +202,7 @@ DEPENDENCIES
   jbuilder (~> 2.5)
   jquery-ui-rails
   listen (>= 3.0.5, < 3.2)
+  oalbacha_view_tool!
   pg (~> 0.18)
   pry-byebug (~> 3.6)
   puma (~> 3.7)
