@@ -1,9 +1,3 @@
-GIT
-  remote: https://github.com/oalbacha/oalbacha_view_tool
-  revision: ffaa0ea6a7716e92e25c294e99d1e94974c6b0e4
-  specs:
-    oalbacha_view_tool (0.1.0)
-
 GEM
   remote: https://rubygems.org/
   specs:
@@ -102,6 +96,7 @@ GEM
     nio4r (2.2.0)
     nokogiri (1.8.2)
       mini_portile2 (~> 2.3.0)
+    oalbacha_view_tool (0.1.0)
     orm_adapter (0.5.0)
     pg (0.21.0)
     popper_js (1.12.9)
@@ -202,7 +197,7 @@ DEPENDENCIES
   jbuilder (~> 2.5)
   jquery-ui-rails
   listen (>= 3.0.5, < 3.2)
-  oalbacha_view_tool!
+  oalbacha_view_tool (~> 0.1.0)
   pg (~> 0.18)
   pry-byebug (~> 3.6)
   puma (~> 3.7)
