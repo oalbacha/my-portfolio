@@ -83,6 +83,10 @@ body {
 }
 
 @media (min-width: 48em) {
+  .inner {
+    width: 55rem;
+  }
+
   .masthead-brand {
     float: left;
   }
