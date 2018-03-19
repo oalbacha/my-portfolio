@@ -8,6 +8,7 @@ class PortfoliosController < ApplicationController
 	end
 
   def sort
+    binding.pry
     params[:order].each do |key, value|
       Portfolio.find(value[:id]).update(position: value[:position])
     end
@@ -77,7 +78,9 @@ class PortfoliosController < ApplicationController
   def portfolio_params
     params.require(:portfolio).permit(:title, 
                                       :subtitle, 
-                                      :body, 
+                                      :body,
+                                      :main_image,
+                                      :thumb_image,
                                       technologies_attributes: [:name]
                                       )
   end
