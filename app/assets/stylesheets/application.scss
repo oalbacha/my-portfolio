@@ -178,5 +178,17 @@ body {
 
 .tech-news > .card{
   padding: 30px;
-  
+}
+
+.app-card-container{
+  color: black;
+  width: 780px;
+}
+
+.app-card-container > .card{
+  padding: 15px;
+}
+
+.app-card-container a{
+  color: blue;
 }
