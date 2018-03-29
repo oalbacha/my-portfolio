@@ -1,12 +1,14 @@
 <header>
   <div class="container">
-    <h1>Omar's Blog</h1>
-    <p>An example of a blog template for now as a placeholder</p>
-    <span>
-      <%= link_to 'Write a New Blog', new_blog_path if logged_in?(:site_admin) %>
-    </span>
-    <span>
-      | <%= link_to 'Topics', topics_path %>
-    </span>
+    <h1>My Blog</h1>
+    <hr>
+    <div class="blog-links">
+      <span>
+      <%= link_to 'New Post', new_blog_path if logged_in?(:site_admin) %>
+      </span>
+      <span>
+        | <%= link_to 'List Topics', topics_path %>
+      </span>
+    </div>
   </div>
 </header>
