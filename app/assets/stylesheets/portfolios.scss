@@ -6,6 +6,11 @@
   --jumbotron-padding-y: 3rem;
 }
 
+body{
+  min-height: 75rem;
+  font-family: 'Inconsolata', monospace;
+}
+
 .jumbotron {
   padding-top: var(--jumbotron-padding-y);
   padding-bottom: var(--jumbotron-padding-y);
@@ -31,6 +36,15 @@
   max-width: 40rem;
 }
 
+h1, .h1,
+h2, .h2,
+h3, .h3,
+h4, .h4,
+h5, .h5,
+h6, .h6 {
+   font-family: 'Roboto Slab', serif;
+}
+
 footer {
   padding-top: 3rem;
   padding-bottom: 3rem;
@@ -52,4 +66,7 @@ footer p {
   margin-top: 15px;
 }
 
-
+.card{
+  margin:10px;
+  padding: -120px;
+}
